@@ -1,2 +1,2 @@
 
-    public static void main(){
+    else if(ch>='0' && ch<='9')
