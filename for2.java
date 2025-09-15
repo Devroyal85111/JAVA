@@ -1,5 +1,5 @@
 import java.util.*;
-public class forloop{
+public class for2{
     public static void main(String[] args){
         int i,num;
         Scanner s=new Scanner(System.in);
@@ -7,7 +7,10 @@ public class forloop{
         num = s.nextInt();
         for(i=num;i>=1;i--)
         {
-            System.out.print(i+"\t");
+            if(i%2==1)
+            {
+                System.out.print(i+"\teven");
+            }
         }
     }
 }
